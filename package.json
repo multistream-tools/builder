@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "@multistream-tools/builder",
+  "version": "1.0.0",
+  "author": {
+    "name": "Multistream Tools",
+    "url": "https://multistream.tools"
+  },
+  "repository": "github:multistream-tools/builder",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "main": "src/builder.js",
+  "peerDependencies": {
+    "@vitejs/plugin-basic-ssl": "2.0.0",
+    "cheerio": "1.1.0",
+    "vite": "6.3.5",
+    "vite-plugin-html": "3.2.2",
+    "vite-plugin-singlefile": "2.1.0"
+  }
+}
